@@ -1,5 +1,5 @@
-{
-  "name": "thebareun-site",
-  "version": "0.1.0",
-  "private": true
-}
+npm create vite@latest thebareun-site --template react
+cd thebareun-site
+npm install
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
